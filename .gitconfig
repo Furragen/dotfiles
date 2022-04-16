@@ -1,0 +1,13 @@
+[core]
+  excludesfile = ~/.gitignore
+[color]
+  branch = auto
+  diff = auto
+  interactive = auto
+  status = auto
+[init]
+  defaultBranch = main
+[credential]
+  helper = osxkeychain
+[push]
+  default = simple
