@@ -12,14 +12,8 @@ export CLICOLOR_FORCE=1
 #fzf
 source /usr/local/Cellar/fzf/0.30.0/shell/key-bindings.zsh
 
-#kubectl completion
-source <(kubectl completion bash)
-
 # Nicer prompt.
-export PS1=$'\n'"%F{green} %*%F %3~ %F{white}"$'\n'"$ "
-
-# Enable plugins.
-plugins=(git brew history kubectl history-substring-search)
+export PS1=$'\n'"%F{green} %*%F %F{green}%3~ %F{white}"$'\n'"$ "
 
 # Custom $PATH with extra locations.
 export PATH=$HOME/Library/Python/3.8/bin:/opt/homebrew/bin:/usr/local/bin:/usr/local/sbin:$HOME/bin:/usr/local/share:$HOME/.krew/bin:$PATH
@@ -55,3 +49,4 @@ knownrm() {
    sed -i '' "$1d" ~/.ssh/known_hosts
  fi
 }
+
