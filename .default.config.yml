@@ -1,0 +1,150 @@
+---
+downloads: ~/.ansible-downloads/
+
+configure_dotfiles: true
+configure_terminal: false
+configure_osx: true
+
+# Set to 'true' to configure the Dock via dockutil.
+configure_dock: true
+dockitems_remove:
+  - Safari
+  - Launchpad
+  - TV
+  - Podcasts
+  - 'App Store'
+  - Maps
+  - Photos
+  - FaceTime
+  - Calendar
+  - Contacts
+  - Reminders
+  - Notes
+  - Music
+  - 'System Preferences'
+dockitems_persist:
+  - name: "Thunderbird"
+    path: "/Applications/Thunderbird.app/"
+    pos: 3
+  - name: "Firefox"
+    path: "/Applications/Firefox.app/"
+    pos: 4
+  - name: "Google Chrome"
+    path: "/Applications/Google Chrome.app/"
+    pos: 5
+  - name: "Terminal"
+    path: "/System/Applications/Utilities/Terminal.app/"
+    pos: 6
+  - name: "Atom"
+    path: "/Applications/Atom.app/"
+    pos: 7
+  - name: "Joplin"
+    path: "/Applications/Joplin.app/"
+    pos: 8
+  - name: "Spotify"
+    path: "/Applications/Spotify.app/"
+    pos: 9
+  - name: "KeePassXC"
+    path: "/Applications/KeePassXC.app/"
+    pos: 10
+  - name: "TextEdit"
+    path: "/System/Applications/Utilities/TextEdit.app/"
+    pos: 11
+
+configure_sudoers: false
+sudoers_custom_config: ''
+# Example:
+# sudoers_custom_config: |
+#   # Allow users in admin group to use sudo with no password.
+#   %admin ALL=(ALL) NOPASSWD: ALL
+
+dotfiles_repo: https://github.com/Furragen/dotfiles.git
+dotfiles_repo_accept_hostkey: true
+dotfiles_repo_local_destination: ~/git/dev/dotfiles
+dotfiles_repo_version: main
+dotfiles_files:
+  - .gitconfig
+  - .zshrc
+  - .gitignore
+  - .osx
+
+homebrew_installed_packages:
+  - git
+  - ssh-copy-id
+  - wget
+  - terraform
+  - packer
+  - fzf
+  - Kubernetes-cli
+  - curl
+  - telnet
+  - awscli
+  - azure-cli
+  - tmux
+  - krew
+  - helm
+  - pwgen
+  - watch
+  - gnu-sed
+  - jq
+  - nmap
+  #- dockutil #commented out until v3 is available via brew
+
+homebrew_taps:
+  - homebrew/core
+  - homebrew/cask
+
+homebrew_cask_appdir: /Applications
+homebrew_cask_apps:
+  - docker
+  - firefox
+  - google-chrome
+  - vagrant
+  - atom
+  - tunnelblick
+  - signal
+  - joplin
+  - nextcloud
+  - telegram-desktop
+  - spotify
+  - zoom
+  - rclone
+
+# See `geerlingguy.mas` role documentation for usage instructions.
+mas_installed_apps:
+  - { id: 1270075435, name: "Strongbox" }
+  - { id: 1295203466, name: "Microsoft Remote Desktop" }
+  - { id: 409201541, name: "Pages" }
+  - { id: 409203825, name: "Numbers" }
+  - { id: 409183694, name: "Keynote" }
+  - { id: 1451685025, name: "WireGuard" }
+mas_email: ""
+mas_password: ""
+
+osx_script: "~/.osx --no-restart"
+
+# Install packages from other package managers.
+# Note: You are responsible for making sure the required package managers are
+# installed, eg. through homebrew.
+composer_packages: []
+# - name: drush
+#   state: present # present/absent, default: present
+#   version: "^8.1" # default: N/A
+gem_packages: []
+# - name: bundler
+#   state: present # present/absent/latest, default: present
+#   version: "~> 1.15.1" # default: N/A
+npm_packages: []
+# - name: webpack
+#   state: present # present/absent/latest, default: present
+#   version: "^2.6" # default: N/A
+pip_packages: []
+# - name: mkdocs
+#   state: present # present/absent/latest, default: present
+#   version: "0.16.3" # default: N/A
+
+# Set to 'true' to configure Sublime Text.
+configure_sublime: false
+
+# Glob pattern to ansible task files to run after all other tasks are finished.
+post_provision_tasks: []
