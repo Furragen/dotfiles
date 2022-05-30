@@ -50,6 +50,12 @@ dockitems_persist:
   - name: "TextEdit"
     path: "/System/Applications/Utilities/TextEdit.app/"
     pos: 11
+  - name: "Signal"
+    path: "/Applications/Signal.app/"
+    pos: 12
+  - name: "Telegram Desktop"
+    path: "/Applications/Telegram Desktop.app/"
+    pos: 10
 
 configure_sudoers: false
 sudoers_custom_config: ''
