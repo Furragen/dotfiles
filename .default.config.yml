@@ -75,17 +75,14 @@ dotfiles_files:
   - .osx
 
 homebrew_installed_packages:
-  - git
   - ssh-copy-id
   - wget
   - terraform
-  - packer
   - fzf
   - Kubernetes-cli
   - curl
   - telnet
   - awscli
-  - azure-cli
   - tmux
   - krew
   - helm
@@ -97,7 +94,7 @@ homebrew_installed_packages:
   - rclone
   - pidof
   - k9s
-  #- dockutil #commented out until v3 is available via brew
+  - dockutil #commented out until v3 is available via brew
 
 homebrew_taps:
   - homebrew/core
@@ -105,28 +102,18 @@ homebrew_taps:
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
-  - docker
   - firefox
   - google-chrome
-  - vagrant
-  - atom
-  - tunnelblick
   - signal
   - joplin
   - nextcloud
   - telegram-desktop
   - spotify
-  - zoom
   - vscodium
   - qrencode
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps:
-  - { id: 1270075435, name: "Strongbox" }
-  - { id: 1295203466, name: "Microsoft Remote Desktop" }
-  - { id: 409201541, name: "Pages" }
-  - { id: 409203825, name: "Numbers" }
-  - { id: 409183694, name: "Keynote" }
   - { id: 1451685025, name: "WireGuard" }
 mas_email: ""
 mas_password: ""
