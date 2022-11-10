@@ -183,6 +183,10 @@ defaults write com.apple.dock autohide -bool true
 # Enable the 'reduce transparency' option. Save GPU cycles.
 defaults write com.apple.universalaccess reduceTransparency -bool true
 
+# Only show currently running apps in the Dock
+defaults write com.apple.dock show-recents -bool no
+defaults write com.apple.dock recent-apps -array
+
 # Hot corners
 # Possible values:
 #  0: no-op
