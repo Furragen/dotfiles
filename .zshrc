@@ -46,3 +46,4 @@ knownrm() {
    sed -i '' "$1d" ~/.ssh/known_hosts
  fi
 }
+eval "$(starship init zsh)"
