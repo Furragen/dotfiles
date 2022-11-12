@@ -78,6 +78,7 @@ dotfiles_files:
   - .zshrc
   - .gitignore
   - .osx
+  - .alacritty
 
 homebrew_installed_packages:
   - ssh-copy-id
@@ -101,10 +102,19 @@ homebrew_installed_packages:
   - k9s
   - dockutil
   - qrencode
+  - bat
+  - exa
+  - dust
+  - ripgrep
+  - procs
+  - fd
+  - sd
+  - starship
 
 homebrew_taps:
   - homebrew/core
   - homebrew/cask
+  - homebrew/cask-fonts
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
@@ -118,6 +128,8 @@ homebrew_cask_apps:
   - vscodium
   - thunderbird
   - keepassxc
+  - font-code-new-roman-nerd-font
+  - alacritty
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps:
