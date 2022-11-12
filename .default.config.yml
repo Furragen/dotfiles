@@ -37,8 +37,8 @@ dockitems_persist:
   - name: "Google Chrome"
     path: "/Applications/Google Chrome.app/"
     pos: 5
-  - name: "Terminal"
-    path: "/System/Applications/Utilities/Terminal.app/"
+  - name: "Alacritty"
+    path: "/System/Applications/Alacritty.app/"
     pos: 6
   - name: "VSCodium"
     path: "/Applications/VSCodium.app/"
