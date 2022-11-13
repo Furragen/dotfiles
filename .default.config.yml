@@ -130,6 +130,7 @@ homebrew_cask_apps:
   - keepassxc
   - font-code-new-roman-nerd-font
   - alacritty
+  - rectangle
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps:
