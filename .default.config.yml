@@ -110,6 +110,7 @@ homebrew_installed_packages:
   - fd
   - sd
   - starship
+  - gpg
 
 homebrew_taps:
   - homebrew/core
