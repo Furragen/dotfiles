@@ -43,24 +43,36 @@ dockitems_persist:
   - name: "VSCodium"
     path: "/Applications/VSCodium.app/"
     pos: 7
-  - name: "Joplin"
-    path: "/Applications/Joplin.app/"
+  - name: "Notes"
+    path: "/Applications/Notes.app/"
     pos: 8
+  - name: "Reminders"
+    path: "/Applications/Reminders.app/"
+    pos: 9
   - name: "Spotify"
     path: "/Applications/Spotify.app/"
-    pos: 9
+    pos: 10
   - name: "KeePassXC"
     path: "/Applications/KeePassXC.app/"
-    pos: 10
+    pos: 11
   - name: "Signal"
     path: "/Applications/Signal.app/"
-    pos: 11
+    pos: 12
   - name: "Telegram Desktop"
     path: "/Applications/Telegram Desktop.app/"
-    pos: 12
+    pos: 13
   - name: "TextEdit"
     path: "/System/Applications/TextEdit.app/"
-    pos: 13
+    pos: 14
+  - name: "LibreOffice"
+    path: "/Applications/LibreOffice.app/"
+    pos: 15
+  - name: "Calendar"
+    path: "/Applications/Calendar.app/"
+    pos: 16
+  - name: "Contacts"
+    path: "/Applications/Contacts.app/"
+    pos: 17
 
 configure_sudoers: false
 sudoers_custom_config: ''
@@ -122,7 +134,6 @@ homebrew_cask_apps:
   - firefox
   - google-chrome
   - signal
-  - joplin
   - nextcloud
   - telegram-desktop
   - spotify
