@@ -37,8 +37,8 @@ dockitems_persist:
   - name: "Google Chrome"
     path: "/Applications/Google Chrome.app/"
     pos: 5
-  - name: "Alacritty"
-    path: "/System/Applications/Alacritty.app/"
+  - name: "iTerm2"
+    path: "/System/Applications/iTerm2.app/"
     pos: 6
   - name: "VSCodium"
     path: "/Applications/VSCodium.app/"
@@ -90,7 +90,6 @@ dotfiles_files:
   - .zshrc
   - .gitignore
   - .osx
-  - .alacritty
 
 homebrew_installed_packages:
   - ssh-copy-id
@@ -141,7 +140,7 @@ homebrew_cask_apps:
   - thunderbird
   - keepassxc
   - font-code-new-roman-nerd-font
-  - alacritty
+  - iterm2
   - rectangle
   - libreoffice
 
