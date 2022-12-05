@@ -4,6 +4,13 @@
 # @author Alex König
 #
 
+# Aliases
+alias ls="exa"
+alias cat="bat"
+alias du="dust"
+alias find="fd"
+alias grep="rg"
+
 # Colors.
 unset LSCOLORS
 export CLICOLOR=1
