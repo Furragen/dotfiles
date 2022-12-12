@@ -122,6 +122,7 @@ homebrew_installed_packages:
   - sd
   - starship
   - gpg
+  - s3cmd
 
 homebrew_taps:
   - homebrew/core
