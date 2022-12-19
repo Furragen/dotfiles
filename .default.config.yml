@@ -144,6 +144,7 @@ homebrew_cask_apps:
   - iterm2
   - rectangle
   - libreoffice
+  - balenaetcher
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps:
