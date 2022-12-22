@@ -4,28 +4,32 @@
 # @author Alex König
 #
 
+# Aliases
+alias ls="exa"
+alias cat="bat"
+alias du="dust"
+alias find="fd"
+alias grep="rg"
+
 # Colors.
 unset LSCOLORS
 export CLICOLOR=1
 export CLICOLOR_FORCE=1
 
 #fzf
-source /usr/local/Cellar/fzf/0.30.0/shell/key-bindings.zsh
+source /opt/homebrew/Cellar/fzf/0.35.1/shell/key-bindings.zsh
 
 # Nicer prompt.
 export PS1=$'\n'"%F{green} %*%F %F{green}%3~ %F{white}"$'\n'"$ "
 
+# Enable plugins.
+plugins=(git brew history kubectl)
+
 # Custom $PATH with extra locations.
-export PATH=$HOME/Library/Python/3.8/bin:/opt/homebrew/bin:/usr/local/bin:/usr/local/sbin:$HOME/bin:/usr/local/share:$HOME/.krew/bin:$PATH
+export PATH=/opt/homebrew/bin:/usr/local/bin:/usr/local/sbin:$HOME/bin:/usr/local/share:$HOME/.krew/bin:$PATH
 
 # Bash-style time output.
 export TIMEFMT=$'\nreal\t%*E\nuser\t%*U\nsys\t%*S'
-
-# Include alias file (if present) containing aliases for ssh, etc.
-if [ -f ~/.kubectl_aliases ]
-then
-  source ~/.kubectl_aliases
-fi
 
 # Set architecture-specific brew share path.
 arch_name="$(uname -m)"
@@ -49,4 +53,4 @@ knownrm() {
    sed -i '' "$1d" ~/.ssh/known_hosts
  fi
 }
-
+eval "$(starship init zsh)"
