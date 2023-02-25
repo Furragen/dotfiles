@@ -123,6 +123,7 @@ homebrew_installed_packages:
   - starship
   - gpg
   - s3cmd
+  - coreutils
 
 homebrew_taps:
   - homebrew/core
@@ -146,7 +147,6 @@ homebrew_cask_apps:
   - libreoffice
   - balenaetcher
   - teamviewer
-  - teamspeak-client
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps:
