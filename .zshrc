@@ -17,7 +17,7 @@ export CLICOLOR=1
 export CLICOLOR_FORCE=1
 
 #fzf
-source /opt/homebrew/Cellar/fzf/0.38.0/shell/key-bindings.zsh
+source /opt/homebrew/Cellar/fzf/0.39.0/shell/key-bindings.zsh
 
 # Nicer prompt.
 export PS1=$'\n'"%F{green} %*%F %F{green}%3~ %F{white}"$'\n'"$ "
