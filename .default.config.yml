@@ -135,6 +135,7 @@ homebrew_cask_apps:
   - firefox
   - google-chrome
   - signal
+  - steam
   - nextcloud
   - telegram-desktop
   - spotify
