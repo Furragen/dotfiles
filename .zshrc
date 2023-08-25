@@ -19,6 +19,9 @@ export CLICOLOR_FORCE=1
 #fzf
 source /opt/homebrew/Cellar/fzf/0.35.1/shell/key-bindings.zsh
 
+#kubectl aliases
+[ -f ~/.kubectl_aliases ] && source ~/.kubectl_aliases
+
 # Nicer prompt.
 export PS1=$'\n'"%F{green} %*%F %F{green}%3~ %F{white}"$'\n'"$ "
 
