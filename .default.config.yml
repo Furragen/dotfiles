@@ -148,6 +148,7 @@ homebrew_cask_apps:
   - libreoffice
   - balenaetcher
   - teamviewer
+  - via
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps:
