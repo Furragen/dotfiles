@@ -140,6 +140,7 @@ homebrew_cask_apps:
   - rectangle
 
 # See `geerlingguy.mas` role documentation for usage instructions.
+#screenbrush
 mas_installed_apps: ""
 mas_email: ""
 mas_password: ""
