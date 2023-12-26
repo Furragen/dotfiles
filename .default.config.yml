@@ -124,11 +124,13 @@ homebrew_installed_packages:
   - gpg
   - s3cmd
   - coreutils
+  - hashicorp/tap/terraform
 
 homebrew_taps:
   - homebrew/core
   - homebrew/cask
   - homebrew/cask-fonts
+  - hashicorp/tap
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
