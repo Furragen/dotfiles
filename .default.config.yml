@@ -114,7 +114,7 @@ homebrew_installed_packages:
   - dockutil
   - qrencode
   - bat
-  - exa
+  - eza
   - dust
   - ripgrep
   - procs
@@ -124,7 +124,9 @@ homebrew_installed_packages:
   - gpg
   - s3cmd
   - coreutils
+  - mcfly
   - hashicorp/tap/terraform
+  - hashicorp/tap/packer
 
 homebrew_taps:
   - homebrew/core

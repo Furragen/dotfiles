@@ -5,7 +5,7 @@
 #
 
 # Aliases
-alias ls="exa"
+alias ls="eza"
 alias cat="bat"
 alias du="dust"
 alias find="fd"
@@ -15,9 +15,6 @@ alias grep="rg"
 unset LSCOLORS
 export CLICOLOR=1
 export CLICOLOR_FORCE=1
-
-#fzf
-source /opt/homebrew/Cellar/fzf/0.44.1/shell/key-bindings.zsh
 
 # Nicer prompt.
 export PS1=$'\n'"%F{green} %*%F %F{green}%3~ %F{white}"$'\n'"$ "
@@ -54,3 +51,4 @@ knownrm() {
  fi
 }
 eval "$(starship init zsh)"
+eval "$(mcfly init zsh)"
