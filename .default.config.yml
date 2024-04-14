@@ -95,7 +95,6 @@ homebrew_installed_packages:
   - ssh-copy-id
   - wget
   - terraform
-  - fzf
   - Kubernetes-cli
   - curl
   - telnet
@@ -114,7 +113,7 @@ homebrew_installed_packages:
   - dockutil
   - qrencode
   - bat
-  - exa
+  - eza
   - dust
   - ripgrep
   - procs
@@ -123,19 +122,25 @@ homebrew_installed_packages:
   - starship
   - gpg
   - s3cmd
+  - coreutils
+  - mcfly
+  - hashicorp/tap/terraform
+  - hashicorp/tap/packer
+  - tldr
 
 homebrew_taps:
   - homebrew/core
   - homebrew/cask
   - homebrew/cask-fonts
+  - hashicorp/tap
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
   - firefox
   - google-chrome
   - spotify
-  - vscodium
-  - font-code-new-roman-nerd-font
+  - vscode
+  - font-meslo-lg-nerd-font
   - iterm2
   - rectangle
 
