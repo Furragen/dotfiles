@@ -6,7 +6,7 @@
 # Path to oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 # Custom $PATH with extra locations.
-export PATH=/opt/homebrew/bin:/usr/local/bin:/usr/local/sbin:$HOME/bin:/usr/local/share:$HOME/.krew/bin:$PATH
+export PATH=/opt/homebrew/bin:/usr/local/bin:/usr/local/sbin:$HOME/bin:/usr/local/share:$HOME/.krew/bin:$HOME/.toolbox/bin:$PATH
 
 ZSH_THEME="robbyrussell"
 
