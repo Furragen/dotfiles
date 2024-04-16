@@ -19,6 +19,7 @@ alias cat="bat"
 alias du="dust"
 alias find="fd"
 alias grep="rg"
+alias vim="nvim"
 
 arch_name="$(uname -m)"
 if [ "${arch_name}" = "x86_64" ]; then
