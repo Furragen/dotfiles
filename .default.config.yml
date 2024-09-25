@@ -127,12 +127,15 @@ homebrew_installed_packages:
   - hashicorp/tap/terraform
   - hashicorp/tap/packer
   - tldr
+  - eksctl
+  - fermyon/tap/spin
 
 homebrew_taps:
   - homebrew/core
   - homebrew/cask
   - homebrew/cask-fonts
   - hashicorp/tap
+  - fermyon/tap
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
@@ -143,6 +146,7 @@ homebrew_cask_apps:
   - font-meslo-lg-nerd-font
   - iterm2
   - rectangle
+  - obs
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 #screenbrush
