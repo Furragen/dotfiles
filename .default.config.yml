@@ -94,7 +94,6 @@ dotfiles_files:
 homebrew_installed_packages:
   - ssh-copy-id
   - wget
-  - terraform
   - Kubernetes-cli
   - curl
   - telnet
@@ -129,6 +128,7 @@ homebrew_installed_packages:
   - tldr
   - eksctl
   - fermyon/tap/spin
+  - cosign
 
 homebrew_taps:
   - homebrew/core
