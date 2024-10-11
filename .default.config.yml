@@ -129,6 +129,7 @@ homebrew_installed_packages:
   - eksctl
   - fermyon/tap/spin
   - cosign
+  - tinygo
 
 homebrew_taps:
   - homebrew/core
@@ -136,6 +137,7 @@ homebrew_taps:
   - homebrew/cask-fonts
   - hashicorp/tap
   - fermyon/tap
+  - tinygo-org/tools
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
